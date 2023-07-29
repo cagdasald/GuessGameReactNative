@@ -84,6 +84,9 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   btnContainer: {
+    flexDirection: "row",
     width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

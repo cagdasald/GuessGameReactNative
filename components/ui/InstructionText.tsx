@@ -4,10 +4,11 @@ import Colors from "../../constants/colors";
 
 interface IProps {
   children?: ReactNode;
+  style?: object;
 }
 
 const InstructionText = (props: IProps) => {
-  return <Text style={styles.inputTitle}>{props.children}</Text>;
+  return <Text style={[styles.inputTitle, props.style]}>{props.children}</Text>;
 };
 
 export default InstructionText;

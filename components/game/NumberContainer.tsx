@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   numberText: {
     color: Colors.accent500,
     fontSize: 36,
-    fontWeight: "bold",
+    // you don't need to use it anymore because we added the font family in bold --- fontWeight: "bold",
+    fontFamily: "open-sans-bold",
   },
 });
